@@ -34,17 +34,17 @@
 
 ## Código Fuente
 
-* Lección 1
+* Lección 1 (Carrito)
   * > Tutorial
   * > Laboratorio
   * > Desafío
   * > Prueba
-* Lección 2
+* Lección 2 (Animales)
   * > Tutorial
   * > Laboratorio
   * > Desafío
   * > Prueba
-* Lección 3
+* Lección 3 (2D)
   * > Tutorial
   * > Laboratorio
   * > Desafío
