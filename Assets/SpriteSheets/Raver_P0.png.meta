@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -121,7 +121,5719 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Raver_P0_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3024
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26368187d42c66e4ca3edbf5f8ef224d
+      internalID: 1908084020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3024
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8e3d17c23debf41adf10e6bd75f622
+      internalID: 1429616691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3024
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e28a5783790b445b60e4a1e861e94b
+      internalID: -337560665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3024
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ee77b36ecfa4c4e808831f19d918d6
+      internalID: -786317458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3024
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f649519a6306f46b1a9e59b5105284
+      internalID: -1907908750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 3024
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce7bce8781d35c449788c33c50ef3db
+      internalID: 90847684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_6
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3024
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee606d8ad46258647918c25cdd892422
+      internalID: 1741754677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 3024
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ebd5639b026814a8399f4197d6a99f
+      internalID: -1637712610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2959
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fe621a98a35204db24fe952d0ac2da
+      internalID: -1872500023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2959
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec71307f5c2b0c4fafae1308bb2be26
+      internalID: -9478900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2959
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92817741bf9ca34d8c691e85decfe23
+      internalID: 1371293834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2959
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c7ee214e56db14ab896d176b7ea686
+      internalID: 1650816326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_12
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2959
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9d7aeb2906f5349ab598be846e10de
+      internalID: -1656106146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_13
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2959
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5c96020051147498006ecb78660552
+      internalID: 1093580515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_14
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2959
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f0e8d957df3484498302c2e3ae19a5
+      internalID: -657720739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2959
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b637e674244c8448b7889c8fe92483f
+      internalID: 907773623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2896
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05c5948ffa3bc443ae1a48cee0284e8
+      internalID: -2105049831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2896
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d2e6dcf675e4149bbcb8babdd23031
+      internalID: 955935870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2896
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36896d482ca323744a20d573c74639ee
+      internalID: 662901661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2896
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1400ac1e8c02ca43b22f329f78d5b4b
+      internalID: -715236662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_20
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2896
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100c9c3476599e641bcf5e588c7612b5
+      internalID: 1292881279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_21
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2896
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385fa52280163c24195dbd75e96e7bed
+      internalID: 35623508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_22
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2896
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355876577793f794a906685557ea4f58
+      internalID: 107714279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_23
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2896
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eca71fcc0bf9df41bba5dd8ad50fbc4
+      internalID: -330963111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2832
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdd913313abc444ba4cb08f74935b96
+      internalID: -64472189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2832
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df58f2340ecc86419d24c4cc87a940f
+      internalID: -1920161332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2832
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3faeac84a6f74bb4cab368077bee96f4
+      internalID: 918675206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2832
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5770907e39daf8b4c974b1cc0a75861b
+      internalID: 1277100814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_28
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2832
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498732d3d86c46741b764d602ac433f1
+      internalID: -1824025386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_29
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2832
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab20e914ac2e0b74da6a1ec0a19e4d79
+      internalID: 1519057899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_30
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2832
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c00149f8eb48f499242fcf26485028
+      internalID: -2006314176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_31
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2832
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8044e98618cf4f54a8948c5d2bf10c71
+      internalID: -2104477087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_32
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2767
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d29673f3215e524cafa529a25923009
+      internalID: -1028834397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_33
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2769
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe571461f39e2ec4cac689d9024bbe0f
+      internalID: 1740292704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_34
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2770
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7feb24522ea0643878bda7a4b37bab
+      internalID: 1745167040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_35
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2770
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019da029fa75ed94ba6b1e657ee4d2eb
+      internalID: 477181599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_36
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2767
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca46ffa5a1c7e3458640f4b530746e9
+      internalID: -1158884405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_37
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2769
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4941a6467ab4afe4d9974609a2b65889
+      internalID: 969944120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_38
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2770
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad89947b80414c54f9f6cfa2cb62cf16
+      internalID: -248468395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_39
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2770
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fac3c932d7dbd247ae0bd5986114a44
+      internalID: -877349932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_40
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2704
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c991844786caa449607c1c1ee0c329
+      internalID: -1998000438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_41
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2704
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d81e400e7770ca429a31d80f7733fa2
+      internalID: -1473397266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_42
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 2704
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e7ecc79b0193b4b8cc5a2bd1f9ca28
+      internalID: 1037484581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_43
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2704
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258de05405877c745abc2c4e32da120b
+      internalID: 445256712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_44
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2704
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de745b711d8f444c91e342862492bc4
+      internalID: 1002500638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_45
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08c9b7ec46d5fa48b91e00337176864
+      internalID: 50297632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_46
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2704
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f5f9f308586a14fae20bd670ce6b43
+      internalID: 1033312424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_47
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2704
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06608feab8239ca488b1817987ef841e
+      internalID: -931787837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_48
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2641
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae152f978ab78ec43913c1aa099c81dd
+      internalID: 377719053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_49
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2640
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0ee5f27fad94c40a94eaff04b28e31
+      internalID: 234514765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_50
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2638
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebafe83b669609344af9b2ca2e82cf4d
+      internalID: -1893521162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_51
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2638
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6be20a17d3a9949a0faf1706789561
+      internalID: -549671392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_52
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2641
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022d5b08b451b4646ba5c5590676be51
+      internalID: -1858809883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_53
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2640
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d3e4d952d9acd439637105f639c14d
+      internalID: -1930410076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_54
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2638
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e39e8958963a8943ba0bb7d6d12acfb
+      internalID: 2031548684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_55
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2638
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045edd5da97914440ac9d699e77ddefd
+      internalID: 94057076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_56
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2575
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0bcf6ad32bd1a949b53f5f40cfa9cea
+      internalID: -760736062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_57
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 2575
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2b9a37b398ce8448c6ac89c8fd5e25
+      internalID: 1155684078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_58
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2575
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2cb77858949e94799a14f8a11dcfa6
+      internalID: 160993585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_59
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2575
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb894d0448ea6154582774c1aa9d1fcb
+      internalID: 1432692249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_60
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2575
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8970f1083d1b7bf44a1366f576530600
+      internalID: -219532248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_61
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 2575
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93a96373c78f2a478f7a1064fe916c1
+      internalID: 1082224614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_62
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 2575
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9022eb26952ece94f9a51353900b3aa2
+      internalID: 463635278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_63
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 2575
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275ceb1b48defc148ae241d3ced50c3b
+      internalID: 1830473258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_64
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2511
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d782342ecba4741428869f9000ef74ef
+      internalID: 1112709959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_65
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2512
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8847278b9066577439e6941d14d85b35
+      internalID: -65220569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_66
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2515
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be652bba4d25da143a3aa39bb5284e03
+      internalID: -669760777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_67
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2517
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75b131c1c2536e4eab1e25834b25a1d
+      internalID: -129931802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_68
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2511
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a586ffa13ddec41a66b1077fe3a2db
+      internalID: -1744725726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_69
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2512
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a495a34a683844187fe9ef81e6ff28
+      internalID: -68188662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_70
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2515
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79647e23cce94240aa723e79f3723ba
+      internalID: 884163198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_71
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2517
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adeba8b29b4f7334ca0ba2c22eadfd9b
+      internalID: -2056812859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_72
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2449
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae26ba57a98bb604fb86654c33486a19
+      internalID: -2043036472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_73
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2449
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f6426328cd12a45b7614c97cdf431d
+      internalID: 1055067077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_74
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 2448
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639d8d8f201caab4ebee9340b8182c97
+      internalID: 1627593217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_75
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2448
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451cd0985a46bc349b3464cdabef50b8
+      internalID: -1882172162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_76
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2449
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae8340872efa87409482a6932072fa2
+      internalID: 887202804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_77
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2449
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52647575580971f41b8aa4a222b465d8
+      internalID: 632129091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_78
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 2448
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2ebde5f6193f347ac4928f8231d243
+      internalID: 1343890479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_79
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 2448
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2271ee2c78fe2194d93bae12a02e855d
+      internalID: 576732478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_80
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2380
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4045b069813ba4ba9edfe9ce8a662b
+      internalID: -696268939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_81
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2383
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15debd7b025772f429edbfdada9ed120
+      internalID: -1037961182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2380
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3304f29bc74d0b547a4045f1742c81c9
+      internalID: -1033507345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_83
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2380
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bd16808b538cf439d1fb7090d5aaa1
+      internalID: 1698017948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_84
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 2380
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96817602e21a9024f9945676a673eb85
+      internalID: -646244790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_85
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2383
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fdb1e5f098cd34e820022e9220625d
+      internalID: -363322047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_86
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 2380
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6525a9003b1954faeaea3e63666720
+      internalID: 1494777475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_87
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2380
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066409c96b4b2034eb2047e0f1a9355a
+      internalID: 288297599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_88
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2320
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a3e14f2a9079040a4683469d94685f
+      internalID: -117724195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_89
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2320
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ece20d33081cd4c8ef2a28685652d7
+      internalID: 107132285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_90
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2320
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7440479301f7145489c158e36674aab4
+      internalID: -1847161011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_91
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2320
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad63fa442034dd4abc17c866fe4b7e5
+      internalID: 20227821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_92
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2320
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09497ef5b9c90b64295a2051ce8aa93d
+      internalID: 2002866389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_93
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2320
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4471150de0f005f429a2e81ce7743934
+      internalID: -1006407330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_94
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2320
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120c4e4bbb283cf40802b86be710b80e
+      internalID: 369880824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_95
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2320
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b28ab4b3b074448b2926b0ea6a8524
+      internalID: -1768772696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_96
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2257
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ea49a5ca84aad4d827ce3719ff23ac
+      internalID: 1195092820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_97
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 2253
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0c5b4c25fc204449e360fe5ef8af1a
+      internalID: 686899972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_98
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2242
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00830386d5551c4ba4811ce39ed9a32
+      internalID: 923523525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2242
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117e7d4a094150644832503673fe68cb
+      internalID: 1403375934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_100
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2245
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266339fcae7b4e04a9dd5f6b584bb5c8
+      internalID: -431668921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_101
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 2256
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137489bcd9b166643a4366fccc6beac4
+      internalID: 691067435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_102
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 2191
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cf8bca7c2191143b72162630c2567c
+      internalID: -707021654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_103
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 2191
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf714f0ce9c0e64e94fc53da1277d3f
+      internalID: 1247474610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_104
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 2191
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4926e7303ce5c5d4984aace6417b392b
+      internalID: 1309737598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_105
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2179
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bfd887b20d0c948a32c1cd64b343e1
+      internalID: -578260181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_106
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 2179
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c49a1c471f0a049ac51ab10ac03274
+      internalID: -174986912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_107
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 2179
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad174e5c02ca2c47b3dc41efd363f59
+      internalID: 694112021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_108
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2125
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c38401182cb9e1409c4b7a2d23b52f6
+      internalID: 1979491403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_109
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2125
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5765c9fff3c13c84fa641f98ba83df99
+      internalID: 1372904366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_110
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2127
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a305fc04ddfdf43b88888a385eb9d7
+      internalID: -171059935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_111
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2127
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f4a649a8098c4478865711f2afbe68
+      internalID: -1420077624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_112
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2125
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecbe4050d875cd47b02c9d36e886c74
+      internalID: -370205187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_113
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2125
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6a28d50757bff45bee19347e723727
+      internalID: 666047071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_114
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2062
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396e540fb78ba114e92c64412bedfd62
+      internalID: 1704090408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_115
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2062
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637cea6b3addb61408cfc97d86c13cfb
+      internalID: -334761267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_116
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2062
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7ad7fee76b8b5499b56469d04fe93c
+      internalID: -2123569561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_117
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2050
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87efbf0ad5458de42aa479db8587f1fd
+      internalID: -183482977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_118
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2050
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d85b2af02ab814ba5213e85e3f56bc
+      internalID: 564801122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_119
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2052
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d6ebd37bb6d2d4a98ac7c7a11f1fd0
+      internalID: 2144443295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2001
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc38f71e111ed6d468620c752b4e5c63
+      internalID: 184877518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2001
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0982e0e965ab5be409f222594bcac111
+      internalID: -1652437518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_122
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1984
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd90b3869a5f60c40a8a8af85daec398
+      internalID: 279716197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_123
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1984
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b61c8bfd0a59d4b82353d5249e6217
+      internalID: -897679767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_124
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1984
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0702dd3d667eff40821ddaefee812cf
+      internalID: -540112757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_125
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1999
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a0c18ce1b8aef4b8f98062a574124f
+      internalID: 1484525327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_126
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1924
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1f4eb9146a0364581e328c71174706
+      internalID: 1718589961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_127
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1924
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d042482e71f4f9b4892cf9b86e4c4163
+      internalID: 789753664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_128
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1923
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501c90ef2f5ae134eb461b08e10e1020
+      internalID: 1533718027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_129
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1924
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9251bebd59f7035439f870cb6c3a3a21
+      internalID: 567049265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_130
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1935
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eed64c32fd667548b8985b7e4fb0648
+      internalID: 322640781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_131
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1935
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e04a49f60479b1438d7fca7bdb940a4
+      internalID: -782463016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_132
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1870
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8359582ff1d28404eab8816e79ece70c
+      internalID: 24110502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_133
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1870
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8add036df5fd7843815b696be4dc913
+      internalID: -1288337808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_134
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1870
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecf3e50b217b1143bfd618d42c8c442
+      internalID: -1494156068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_135
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1870
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1db275bd42dd7949b2d2751dc259d0a
+      internalID: 746380873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_136
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1870
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7a994bd79f9434789bd1e0c76f37b0
+      internalID: -1627532854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_137
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1870
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae59ca205ac61e42b63ba94d7216120
+      internalID: 1021176240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_138
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1797
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393774a9232f06b4a8af97221cbdf948
+      internalID: 1149174734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_139
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1797
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2082c5137a672584f8a6cdd76fe3baa1
+      internalID: -782282136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_140
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1795
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7873a82f75fac468c9a1f546b5351f
+      internalID: 1914330812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_141
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1797
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dce3482f7a3ab438b72afc677f6619
+      internalID: 923685232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_142
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1807
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a929c6cf18a9bc4eb7e9f159f97c232
+      internalID: 469357557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_143
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1807
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85dfe7d6f4803dd44b5d255a169650e8
+      internalID: -204269806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_144
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1744
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822f7f4db9c3ef745ae55a6d09382941
+      internalID: -985331782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_145
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1678
+        width: 171
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdd98d4d99c0fe4da8c51deecff92c9
+      internalID: 1258235412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_146
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1743
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd296f50fbe98f4c9489f8acc088e80
+      internalID: 14496878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_147
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1606
+        width: 185
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a34f3e8ccba3ca42aa7bc10d84ca127
+      internalID: 1147896907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_148
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1732
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a408904168031214f8cf3a27f497b129
+      internalID: -1043414672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_149
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 1744
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67b207aa84f64e469df49825ddb7e56
+      internalID: 1954947998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_150
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1678
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151563ff6ae1923469cf704e3ca6d211
+      internalID: 1093577366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_151
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1615
+        width: 177
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b1606360ec9ab4f80b08b02ee83fa1
+      internalID: 482308184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_152
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1614
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17eb2b72466686478fd35caa8adbff8
+      internalID: 683353751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_153
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1663
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821efe17cd2e18f49a70405149cff6ad
+      internalID: 37660573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_154
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1663
+        width: 21
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61377b11d7b0d634a8193be96ac36feb
+      internalID: -554212721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_155
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1615
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec0ef18c5b3b8b4d8b832c20b854c07
+      internalID: -522546363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_156
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1615
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6668f5af44ea6924e8ff89f8d5fbfc37
+      internalID: 882427297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_157
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1536
+        width: 171
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfeaf09e66d568e4d91415aa0bb597f3
+      internalID: 1930225923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_158
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1614
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0063bb5d514dd40b44db37c995f223
+      internalID: -507088608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_159
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1614
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003fabd8e252465428ab332954844fb4
+      internalID: 884850561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_160
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1551
+        width: 18
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0820248bf4cf21644b81a3d2b784856b
+      internalID: 762479792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1551
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7168e91848e294d8ace41418c83797
+      internalID: 78819781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_162
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1536
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2ee4bee675a55489bbe83bd95a4742
+      internalID: 162481918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_163
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1536
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2efeaeddd7995143850fae21b1a446d
+      internalID: 1280810576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_164
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186d2ff4ae52f8f4199ede98b70c6c77
+      internalID: -315696167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_165
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1536
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcac2af3abd2df2488b0a920f7367a05
+      internalID: -1496849318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_166
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1536
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae68f3ca6a1e9504cb7713351af24d26
+      internalID: -1575857015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_167
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1536
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c751ae4836424d4080c61e24e09416a
+      internalID: 1799302143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_168
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1488
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db05a2dd39043de478f79e46ce67b2cb
+      internalID: 423481517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_169
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1492
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e0bc179c75c654e9ee959218052766
+      internalID: -1863172844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_170
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1489
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf96a5f6456e9a43a58c6baaef4ce9e
+      internalID: 381001524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_171
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1423
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b40a41577751249bfa8672429482af
+      internalID: -452307093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_172
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1423
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae70049280c8c2549aa859d5727acb7a
+      internalID: -2084625816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_173
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1423
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ca9b25b2d32bd4e82833db7cf09243
+      internalID: -865803680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_174
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1359
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5902eaebeaa5ab14fb90da16786b22d3
+      internalID: -974776421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_175
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1357
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baab2f9041b50547975effdedda036d
+      internalID: -68640007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_176
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1356
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366865bb614f17044bce46c3126e776c
+      internalID: -798701580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_177
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1296
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae996c1a78d26e42b61e3b04b6c25f2
+      internalID: 1140985132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_178
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1296
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a413ff2f9f18b647bc9fd5ec62c5aa1
+      internalID: 1314720427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_179
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1296
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7ad2800d3e026478c84c7adcf80f62
+      internalID: 543387539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_180
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1231
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6b55958543da3408e772ca9a867c9a
+      internalID: 2021760413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_181
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1231
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e428896ca04e0e7428a6bd277574468f
+      internalID: 1132546465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_182
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1168
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466cfcdfd8d60a548a6b44cc1f2ea155
+      internalID: -2003781512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_183
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1168
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6698cec2f4992fd42a30be83f1005145
+      internalID: 343580700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_184
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1104
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6962804097272c54495815a2c9e0b4b7
+      internalID: 1404095743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_185
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1104
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197902d38029340458742af02f5babfd
+      internalID: 316785974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_186
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1039
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b5dd6f997a73e429f77ba8b5513807
+      internalID: 1220123591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_187
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1039
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a799fea36cdf4f4abe0e06a33dee238
+      internalID: -580220013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_188
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 976
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2dc334ca118c44eaef458789ef49bf
+      internalID: 1072172657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_189
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 976
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be282e4fd6e9c374ba8fadb1bf69230c
+      internalID: -1575456890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_190
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 976
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5da161852652d249bc462207ff10913
+      internalID: -944072021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_191
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 976
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dddc54a29ecae44a92f6530bf391dde
+      internalID: 849015311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_192
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 976
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42f41889fceb14418f779ec789386d5
+      internalID: -284189004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_193
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 976
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ce251fd1dd35a4a8a7cdddf1a1b272
+      internalID: 2025003486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_194
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 976
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ad3f7feecca8841bc7330d6a8ba086
+      internalID: -1375298452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_195
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 976
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfed3bcf908e10f4ca5f1b161adfda96
+      internalID: 1403765579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_196
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 912
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e546bba95f54f4288ee2fbab1e2a6c
+      internalID: 443073477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_197
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 912
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f0b75329e3364489cfe581d0ca1735
+      internalID: 602781411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_198
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 912
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3423c4c74bc58264c925359766245e01
+      internalID: 769123273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_199
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 912
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00154ec48e658f458d965701a3eb9be
+      internalID: 115355943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_200
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 912
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8b8407105c5d14893ed03ecf2d3f0a
+      internalID: -1632331949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_201
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 912
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253ab68ce3de74543963b1ecaad5f7a5
+      internalID: 2021482369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_202
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 912
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a4f2228c7befb458448fbfd3d1f5bf
+      internalID: -1220162345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_203
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 912
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b540eb05a65d091458ed51543b87998b
+      internalID: 291392983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_204
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 847
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bd180deb3eef840a555d67929a565b
+      internalID: -2131157855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_205
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 847
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ec23d7776f3a94f92a95d8a5184f21
+      internalID: -543267855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_206
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 847
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71dc83e79132d8941bfecdf46d2583b5
+      internalID: -2093872343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_207
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 847
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0651ca5f4130cc4ea76d84a0c63317a
+      internalID: -1826523584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_208
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 847
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe38ee9001ee92440af1eb683344ed70
+      internalID: -1405563784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_209
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 847
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1009f97adae0d514684329393844a206
+      internalID: -644911507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_210
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 847
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a09238562880b40bb3830d36941694
+      internalID: 573078504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_211
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 847
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d547c1e24946b584cabd4d847c6bb23c
+      internalID: 2038663398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_212
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 784
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c83fb5123f9f5d4582a97064d37336e
+      internalID: -869477590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_213
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 784
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d272dd5b8ee0a45a5d090229893363
+      internalID: -1293748330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_214
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 784
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813a5170da61dce4799977418d6daefd
+      internalID: -1736632042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_215
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 784
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8984e4d95fa7714fbe3d3c62336c7a9
+      internalID: -1130809452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_216
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 784
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea8420b67a4bc24fb154a8b3a3fd6be
+      internalID: -1251104281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_217
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 784
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b7af9193977724e9900cbe44e2f686
+      internalID: 836700848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_218
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 784
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd506dd93d182140a5406ec2c24933d
+      internalID: -1980111230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_219
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 784
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33c133b55a1eed4c8c5ea7d7cb40791
+      internalID: 225699089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_220
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 720
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92443799bdfcde74dbb367b08167a1ea
+      internalID: -1947954857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_221
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 721
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea4aef2e8e17194e925331e6fbf9899
+      internalID: 1251264682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_222
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 721
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2c547206230544b86925c520525e49
+      internalID: -1529927917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_223
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 723
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3293ecc676e3d1d409efcfbb94c283f1
+      internalID: 168127033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_224
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 720
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2937506e15e97b54c84839071ac38785
+      internalID: -652992906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_225
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 721
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f8aa70839096344a854a320c8c100b
+      internalID: 1570034112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_226
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 721
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003ae83dc35ef3f4a8b511db22a229db
+      internalID: 225149420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_227
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 723
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7ffc1312aa682498ac579fc97ab5ff
+      internalID: -135769762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_228
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 655
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa968ed6529fb14eb2fba4b6ede999b
+      internalID: 460857909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_229
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 655
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27e3f2c7186658428ef4e9b6e8907cc
+      internalID: 1704065780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_230
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 655
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5447c737aa7763488cdc3e55b4debee
+      internalID: -1689066423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_231
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 655
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaf1012023f8434f837b208b8660653
+      internalID: -1914152028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_232
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 655
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2d12472742b594495fd9d5b8a1ab41
+      internalID: 18739939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_233
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 655
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba81ed203839664c90a801f6861b378
+      internalID: 1026056213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_234
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 655
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d0843d2f39d1349bdad143ad85272b
+      internalID: 1113664281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_235
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 655
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5517a34a9162cc64387d56dd97fb8c37
+      internalID: 127377238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_236
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 592
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f955238dde53e5428af526ffedef620
+      internalID: -604675005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_237
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 592
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a99e99346ce05438a44a63dae97a5f
+      internalID: -655891970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_238
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 591
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fdbbb2ea74dd445bb396c4d4ca5395
+      internalID: 520046072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_239
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 591
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecf177a9e4d4504ebbbb07f31495b74
+      internalID: -1685936400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_240
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 592
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a51cc2dba62ca42b7f5cb5a997350f
+      internalID: -222108081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_241
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 592
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3534e99c63b19e04ca923d4e9ca2c944
+      internalID: 369014884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_242
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 591
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8018f2b4a16966d49887609659e43905
+      internalID: -1983039374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_243
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 591
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7873dcb398abda341983d62503bbf8ef
+      internalID: -1611968177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_244
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 528
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a8212cd1d61ea49becff71d60ef7d6
+      internalID: 545387189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_245
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 528
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18fce3278eafa34db41ca36264f21ca
+      internalID: 991053512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_246
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 528
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1329dcb92ecb50c4c9f2700e70c7bd86
+      internalID: 1072440260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_247
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 528
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aebdb7f44f772e4983fd5cddee3a9a8
+      internalID: -1082552644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_248
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 528
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9b0cea51740994d938fd25c2b1f79a
+      internalID: -1643482143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_249
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 528
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8b8d1bfeaba6e47a11681ac8323e25
+      internalID: 1108009949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_250
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 528
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ec31adfd5441b409fa9b7035a7f7a7
+      internalID: 20627112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_251
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 528
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01766197f54d5b4db96831a570d1131
+      internalID: 1434219305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_252
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 462
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e091d3d745eb149b72d5b346a4503e
+      internalID: -1048341605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_253
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 468
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1b610390d2e964c929a4c069113101
+      internalID: -691613767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_254
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 465
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4b7de6ce22d724b90f36c2d6052b0a
+      internalID: 1543884534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_255
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 400
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da45cc7738af1c4f9086f4f1b98706a
+      internalID: -1811401182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_256
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 400
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97be230cd3f4af4bb9063659054740f
+      internalID: -366921007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_257
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 400
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbada0e619cd0e4f84d27a86b1df95d
+      internalID: 1633812387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_258
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 334
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861f9b129de74b54aa39d03abf094375
+      internalID: -1558003856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_259
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 334
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1be209e42cf904cbe1922b679e6b04
+      internalID: -666476337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_260
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 331
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4525702bcc3b94e862637eed5ad667
+      internalID: 1291906062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_261
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 271
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dd26c867ef2e64c9a8dbfa1efc111f
+      internalID: 1943489060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_262
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 271
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030835e4f23127c44ac1708c5637e876
+      internalID: 1366343790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_263
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 271
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504aa986ff9482b44adb4687f76d1f55
+      internalID: 1040057061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_264
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 208
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c448f9a482b164fa8b63d110f93c4d
+      internalID: 477858020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_265
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 208
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4343eed9731469b41b9c184ba7734740
+      internalID: -791899404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_266
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 144
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268b76ae9f290c1458fed181281a5d94
+      internalID: -1405870280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_267
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 144
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25840450c7d7984ea38baf50b5999c4
+      internalID: 940745753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_268
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 79
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2301ca5fb12520b4981deabdd1bdfe93
+      internalID: 659773273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_269
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 79
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ce2a6e82c0275478beeadb9017dcd7
+      internalID: 597000404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_270
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 16
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b714fb0977a7e6c4793c27d0b0b3e5b5
+      internalID: -397958344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raver_P0_271
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 16
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d6a08aa75b3dd46892ee6d768effb0
+      internalID: 1628391815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +5844,279 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Raver_P0_0: 1908084020
+      Raver_P0_1: 1429616691
+      Raver_P0_10: 1371293834
+      Raver_P0_100: -431668921
+      Raver_P0_101: 691067435
+      Raver_P0_102: -707021654
+      Raver_P0_103: 1247474610
+      Raver_P0_104: 1309737598
+      Raver_P0_105: -578260181
+      Raver_P0_106: -174986912
+      Raver_P0_107: 694112021
+      Raver_P0_108: 1979491403
+      Raver_P0_109: 1372904366
+      Raver_P0_11: 1650816326
+      Raver_P0_110: -171059935
+      Raver_P0_111: -1420077624
+      Raver_P0_112: -370205187
+      Raver_P0_113: 666047071
+      Raver_P0_114: 1704090408
+      Raver_P0_115: -334761267
+      Raver_P0_116: -2123569561
+      Raver_P0_117: -183482977
+      Raver_P0_118: 564801122
+      Raver_P0_119: 2144443295
+      Raver_P0_12: -1656106146
+      Raver_P0_120: 184877518
+      Raver_P0_121: -1652437518
+      Raver_P0_122: 279716197
+      Raver_P0_123: -897679767
+      Raver_P0_124: -540112757
+      Raver_P0_125: 1484525327
+      Raver_P0_126: 1718589961
+      Raver_P0_127: 789753664
+      Raver_P0_128: 1533718027
+      Raver_P0_129: 567049265
+      Raver_P0_13: 1093580515
+      Raver_P0_130: 322640781
+      Raver_P0_131: -782463016
+      Raver_P0_132: 24110502
+      Raver_P0_133: -1288337808
+      Raver_P0_134: -1494156068
+      Raver_P0_135: 746380873
+      Raver_P0_136: -1627532854
+      Raver_P0_137: 1021176240
+      Raver_P0_138: 1149174734
+      Raver_P0_139: -782282136
+      Raver_P0_14: -657720739
+      Raver_P0_140: 1914330812
+      Raver_P0_141: 923685232
+      Raver_P0_142: 469357557
+      Raver_P0_143: -204269806
+      Raver_P0_144: -985331782
+      Raver_P0_145: 1258235412
+      Raver_P0_146: 14496878
+      Raver_P0_147: 1147896907
+      Raver_P0_148: -1043414672
+      Raver_P0_149: 1954947998
+      Raver_P0_15: 907773623
+      Raver_P0_150: 1093577366
+      Raver_P0_151: 482308184
+      Raver_P0_152: 683353751
+      Raver_P0_153: 37660573
+      Raver_P0_154: -554212721
+      Raver_P0_155: -522546363
+      Raver_P0_156: 882427297
+      Raver_P0_157: 1930225923
+      Raver_P0_158: -507088608
+      Raver_P0_159: 884850561
+      Raver_P0_16: -2105049831
+      Raver_P0_160: 762479792
+      Raver_P0_161: 78819781
+      Raver_P0_162: 162481918
+      Raver_P0_163: 1280810576
+      Raver_P0_164: -315696167
+      Raver_P0_165: -1496849318
+      Raver_P0_166: -1575857015
+      Raver_P0_167: 1799302143
+      Raver_P0_168: 423481517
+      Raver_P0_169: -1863172844
+      Raver_P0_17: 955935870
+      Raver_P0_170: 381001524
+      Raver_P0_171: -452307093
+      Raver_P0_172: -2084625816
+      Raver_P0_173: -865803680
+      Raver_P0_174: -974776421
+      Raver_P0_175: -68640007
+      Raver_P0_176: -798701580
+      Raver_P0_177: 1140985132
+      Raver_P0_178: 1314720427
+      Raver_P0_179: 543387539
+      Raver_P0_18: 662901661
+      Raver_P0_180: 2021760413
+      Raver_P0_181: 1132546465
+      Raver_P0_182: -2003781512
+      Raver_P0_183: 343580700
+      Raver_P0_184: 1404095743
+      Raver_P0_185: 316785974
+      Raver_P0_186: 1220123591
+      Raver_P0_187: -580220013
+      Raver_P0_188: 1072172657
+      Raver_P0_189: -1575456890
+      Raver_P0_19: -715236662
+      Raver_P0_190: -944072021
+      Raver_P0_191: 849015311
+      Raver_P0_192: -284189004
+      Raver_P0_193: 2025003486
+      Raver_P0_194: -1375298452
+      Raver_P0_195: 1403765579
+      Raver_P0_196: 443073477
+      Raver_P0_197: 602781411
+      Raver_P0_198: 769123273
+      Raver_P0_199: 115355943
+      Raver_P0_2: -337560665
+      Raver_P0_20: 1292881279
+      Raver_P0_200: -1632331949
+      Raver_P0_201: 2021482369
+      Raver_P0_202: -1220162345
+      Raver_P0_203: 291392983
+      Raver_P0_204: -2131157855
+      Raver_P0_205: -543267855
+      Raver_P0_206: -2093872343
+      Raver_P0_207: -1826523584
+      Raver_P0_208: -1405563784
+      Raver_P0_209: -644911507
+      Raver_P0_21: 35623508
+      Raver_P0_210: 573078504
+      Raver_P0_211: 2038663398
+      Raver_P0_212: -869477590
+      Raver_P0_213: -1293748330
+      Raver_P0_214: -1736632042
+      Raver_P0_215: -1130809452
+      Raver_P0_216: -1251104281
+      Raver_P0_217: 836700848
+      Raver_P0_218: -1980111230
+      Raver_P0_219: 225699089
+      Raver_P0_22: 107714279
+      Raver_P0_220: -1947954857
+      Raver_P0_221: 1251264682
+      Raver_P0_222: -1529927917
+      Raver_P0_223: 168127033
+      Raver_P0_224: -652992906
+      Raver_P0_225: 1570034112
+      Raver_P0_226: 225149420
+      Raver_P0_227: -135769762
+      Raver_P0_228: 460857909
+      Raver_P0_229: 1704065780
+      Raver_P0_23: -330963111
+      Raver_P0_230: -1689066423
+      Raver_P0_231: -1914152028
+      Raver_P0_232: 18739939
+      Raver_P0_233: 1026056213
+      Raver_P0_234: 1113664281
+      Raver_P0_235: 127377238
+      Raver_P0_236: -604675005
+      Raver_P0_237: -655891970
+      Raver_P0_238: 520046072
+      Raver_P0_239: -1685936400
+      Raver_P0_24: -64472189
+      Raver_P0_240: -222108081
+      Raver_P0_241: 369014884
+      Raver_P0_242: -1983039374
+      Raver_P0_243: -1611968177
+      Raver_P0_244: 545387189
+      Raver_P0_245: 991053512
+      Raver_P0_246: 1072440260
+      Raver_P0_247: -1082552644
+      Raver_P0_248: -1643482143
+      Raver_P0_249: 1108009949
+      Raver_P0_25: -1920161332
+      Raver_P0_250: 20627112
+      Raver_P0_251: 1434219305
+      Raver_P0_252: -1048341605
+      Raver_P0_253: -691613767
+      Raver_P0_254: 1543884534
+      Raver_P0_255: -1811401182
+      Raver_P0_256: -366921007
+      Raver_P0_257: 1633812387
+      Raver_P0_258: -1558003856
+      Raver_P0_259: -666476337
+      Raver_P0_26: 918675206
+      Raver_P0_260: 1291906062
+      Raver_P0_261: 1943489060
+      Raver_P0_262: 1366343790
+      Raver_P0_263: 1040057061
+      Raver_P0_264: 477858020
+      Raver_P0_265: -791899404
+      Raver_P0_266: -1405870280
+      Raver_P0_267: 940745753
+      Raver_P0_268: 659773273
+      Raver_P0_269: 597000404
+      Raver_P0_27: 1277100814
+      Raver_P0_270: -397958344
+      Raver_P0_271: 1628391815
+      Raver_P0_28: -1824025386
+      Raver_P0_29: 1519057899
+      Raver_P0_3: -786317458
+      Raver_P0_30: -2006314176
+      Raver_P0_31: -2104477087
+      Raver_P0_32: -1028834397
+      Raver_P0_33: 1740292704
+      Raver_P0_34: 1745167040
+      Raver_P0_35: 477181599
+      Raver_P0_36: -1158884405
+      Raver_P0_37: 969944120
+      Raver_P0_38: -248468395
+      Raver_P0_39: -877349932
+      Raver_P0_4: -1907908750
+      Raver_P0_40: -1998000438
+      Raver_P0_41: -1473397266
+      Raver_P0_42: 1037484581
+      Raver_P0_43: 445256712
+      Raver_P0_44: 1002500638
+      Raver_P0_45: 50297632
+      Raver_P0_46: 1033312424
+      Raver_P0_47: -931787837
+      Raver_P0_48: 377719053
+      Raver_P0_49: 234514765
+      Raver_P0_5: 90847684
+      Raver_P0_50: -1893521162
+      Raver_P0_51: -549671392
+      Raver_P0_52: -1858809883
+      Raver_P0_53: -1930410076
+      Raver_P0_54: 2031548684
+      Raver_P0_55: 94057076
+      Raver_P0_56: -760736062
+      Raver_P0_57: 1155684078
+      Raver_P0_58: 160993585
+      Raver_P0_59: 1432692249
+      Raver_P0_6: 1741754677
+      Raver_P0_60: -219532248
+      Raver_P0_61: 1082224614
+      Raver_P0_62: 463635278
+      Raver_P0_63: 1830473258
+      Raver_P0_64: 1112709959
+      Raver_P0_65: -65220569
+      Raver_P0_66: -669760777
+      Raver_P0_67: -129931802
+      Raver_P0_68: -1744725726
+      Raver_P0_69: -68188662
+      Raver_P0_7: -1637712610
+      Raver_P0_70: 884163198
+      Raver_P0_71: -2056812859
+      Raver_P0_72: -2043036472
+      Raver_P0_73: 1055067077
+      Raver_P0_74: 1627593217
+      Raver_P0_75: -1882172162
+      Raver_P0_76: 887202804
+      Raver_P0_77: 632129091
+      Raver_P0_78: 1343890479
+      Raver_P0_79: 576732478
+      Raver_P0_8: -1872500023
+      Raver_P0_80: -696268939
+      Raver_P0_81: -1037961182
+      Raver_P0_82: -1033507345
+      Raver_P0_83: 1698017948
+      Raver_P0_84: -646244790
+      Raver_P0_85: -363322047
+      Raver_P0_86: 1494777475
+      Raver_P0_87: 288297599
+      Raver_P0_88: -117724195
+      Raver_P0_89: 107132285
+      Raver_P0_9: -9478900
+      Raver_P0_90: -1847161011
+      Raver_P0_91: 20227821
+      Raver_P0_92: 2002866389
+      Raver_P0_93: -1006407330
+      Raver_P0_94: 369880824
+      Raver_P0_95: -1768772696
+      Raver_P0_96: 1195092820
+      Raver_P0_97: 686899972
+      Raver_P0_98: 923523525
+      Raver_P0_99: 1403375934
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
