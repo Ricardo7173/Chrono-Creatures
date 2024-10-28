@@ -29,6 +29,7 @@ public class HeroController : MonoBehaviour
     {
         ProcesarMovimiento();
         ProcesarSalto();
+        ProcesarAtaque();
     }
 
     bool EstaEnSuelo()
@@ -96,6 +97,20 @@ public class HeroController : MonoBehaviour
         rigidBody.AddForce(direccionGolpe * fuerzaGolpe);
 
         StartCoroutine(EsperarYActivarMovimiento());
+    }
+
+    void ProcesarAtaque(){
+        if(Input.GetKeyDown(KeyCode.Z) && EstaEnSuelo()){
+            Atacando();
+        }
+    }
+
+    public void Atacando(){
+        animator.SetBool("isAttacking", true);
+    }
+
+    public void DesactivarAtaque(){
+        animator.SetBool("isAttacking", false);
     }
 
     IEnumerator EsperarYActivarMovimiento(){
