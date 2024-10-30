@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mushroom-Hit
+  m_Name: Golem_1_hurt
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,15 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 688384568, guid: 36dbabc8bbc09fc4ba5bf2940c6c2119, type: 3}
-    - time: 0.15
-      value: {fileID: -2030538893, guid: 36dbabc8bbc09fc4ba5bf2940c6c2119, type: 3}
-    - time: 0.3
-      value: {fileID: -1326432140, guid: 36dbabc8bbc09fc4ba5bf2940c6c2119, type: 3}
-    - time: 0.43333334
-      value: {fileID: 1698767666, guid: 36dbabc8bbc09fc4ba5bf2940c6c2119, type: 3}
-    - time: 0.5833333
-      value: {fileID: -567612498, guid: 36dbabc8bbc09fc4ba5bf2940c6c2119, type: 3}
+      value: {fileID: 632682508, guid: 86ceceb8977ea0a4baa75aced427d62f, type: 3}
+    - time: 0.16666667
+      value: {fileID: 569000477, guid: 86ceceb8977ea0a4baa75aced427d62f, type: 3}
+    - time: 0.33333334
+      value: {fileID: -193789064, guid: 86ceceb8977ea0a4baa75aced427d62f, type: 3}
+    - time: 0.5
+      value: {fileID: -150798645, guid: 86ceceb8977ea0a4baa75aced427d62f, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,17 +50,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 688384568, guid: 36dbabc8bbc09fc4ba5bf2940c6c2119, type: 3}
-    - {fileID: -2030538893, guid: 36dbabc8bbc09fc4ba5bf2940c6c2119, type: 3}
-    - {fileID: -1326432140, guid: 36dbabc8bbc09fc4ba5bf2940c6c2119, type: 3}
-    - {fileID: 1698767666, guid: 36dbabc8bbc09fc4ba5bf2940c6c2119, type: 3}
-    - {fileID: -567612498, guid: 36dbabc8bbc09fc4ba5bf2940c6c2119, type: 3}
+    - {fileID: 632682508, guid: 86ceceb8977ea0a4baa75aced427d62f, type: 3}
+    - {fileID: 569000477, guid: 86ceceb8977ea0a4baa75aced427d62f, type: 3}
+    - {fileID: -193789064, guid: 86ceceb8977ea0a4baa75aced427d62f, type: 3}
+    - {fileID: -150798645, guid: 86ceceb8977ea0a4baa75aced427d62f, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.59999996
+    m_StopTime: 0.51666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -82,7 +79,7 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.5833333
+  - time: 0.5
     functionName: DesactivarAnimacion
     data: 
     objectReferenceParameter: {fileID: 0}

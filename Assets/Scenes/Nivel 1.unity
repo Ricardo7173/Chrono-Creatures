@@ -176,17 +176,13 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
-      propertyPath: speed
-      value: 5
+      propertyPath: hitsDie
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: objetivo
       value: 
       objectReference: {fileID: 1279742359}
-    - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
-      propertyPath: debePerseguir
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4447007192826749845, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: m_Name
       value: Mushroom (1)
@@ -39066,7 +39062,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownAtaque: 2
-  fuerzaRebote: 0
+  fuerzaRebote: 3
+  hitsDie: 5
   objetivo: {fileID: 1279742359}
   speed: 7
 --- !u!50 &1016815950
@@ -39081,7 +39078,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 100
+  m_Mass: 3
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -39620,9 +39617,17 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: hitsDie
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: objetivo
       value: 
       objectReference: {fileID: 1279742359}
+    - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: fuerzaRebote
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: debePerseguir
       value: 1
@@ -39630,6 +39635,10 @@ PrefabInstance:
     - target: {fileID: 4447007192826749845, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: m_Name
       value: Mushroom (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921150140195111155, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: m_Mass
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7477098473506146529, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39845,9 +39854,17 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: hitsDie
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: objetivo
       value: 
       objectReference: {fileID: 1279742359}
+    - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: fuerzaRebote
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: debePerseguir
       value: 1
@@ -39855,6 +39872,10 @@ PrefabInstance:
     - target: {fileID: 4447007192826749845, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: m_Name
       value: Mushroom (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921150140195111155, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: m_Mass
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7477098473506146529, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40096,9 +40117,17 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: hitsDie
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: objetivo
       value: 
       objectReference: {fileID: 1279742359}
+    - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: fuerzaRebote
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: debePerseguir
       value: 1
@@ -40106,6 +40135,10 @@ PrefabInstance:
     - target: {fileID: 4447007192826749845, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: m_Name
       value: Mushroom (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921150140195111155, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: m_Mass
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7477098473506146529, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40165,6 +40198,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: hitsDie
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 547146169774539420, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: objetivo
       value: 
       objectReference: {fileID: 1279742359}
@@ -40179,6 +40216,10 @@ PrefabInstance:
     - target: {fileID: 4447007192826749845, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: m_Name
       value: Mushroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921150140195111155, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
+      propertyPath: m_Mass
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7477098473506146529, guid: cbdba59c5d09d1143bff69aa651fe2e2, type: 3}
       propertyPath: m_LocalPosition.x
