@@ -7,6 +7,8 @@ public class Enemigo : MonoBehaviour
 {
     public float cooldownAtaque;
     public float fuerzaRebote;
+    public float hitsDie;
+    private float hits = 0f;
     private bool puedeAtacar = true;
     private bool recibiendoDanio;
     private SpriteRenderer spriteRenderer;
@@ -30,18 +32,13 @@ public class Enemigo : MonoBehaviour
     void Update()
     {
         distancia = objetivo.position.x - transform.position.x;
-
         distanciaAbsoluta = math.abs(distancia);
 
-        if (debePerseguir == true)
+        if (debePerseguir && !recibiendoDanio)
         {
-            if (!recibiendoDanio)
-            {
-                transform.position = Vector2.MoveTowards(transform.position, objetivo.position, speed * Time.deltaTime);
-            }
+            transform.position = Vector2.MoveTowards(transform.position, objetivo.position, speed * Time.deltaTime);
         }
 
-        // Controlar la dirección del sprite según el objetivo
         if (distancia > 0)
         {
             transform.localScale = new Vector3(-1, 1, 1);
@@ -51,7 +48,6 @@ public class Enemigo : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
         }
 
-        // Comienza a perseguir si está dentro del rango de distancia
         if (distanciaAbsoluta < 15)
         {
             debePerseguir = true;
@@ -63,7 +59,6 @@ public class Enemigo : MonoBehaviour
             animator.SetBool("isFollowing", false);
         }
     }
-
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -80,7 +75,6 @@ public class Enemigo : MonoBehaviour
             spriteRenderer.color = color;
 
             GameManager.Instance.PerderVida();
-
             collision.gameObject.GetComponent<HeroController>().AplicarGolpe();
 
             Invoke("ReactivarAtaque", cooldownAtaque);
@@ -91,9 +85,19 @@ public class Enemigo : MonoBehaviour
     {
         if (collision.CompareTag("Espada"))
         {
-            Vector2 direcionDanio = new Vector2(collision.gameObject.transform.position.x, 0);
+            hits += 1;
+            animator.SetBool("damage", true);
+            Vector2 direccionDanio = new Vector2(collision.gameObject.transform.position.x, 0);
+            RecibeDanio(direccionDanio, 1);
 
-            RecibeDanio(direcionDanio, 1);
+            if (hits >= hitsDie)
+            {
+                animator.SetBool("damage", false);
+                animator.SetBool("die", true);
+
+                // Llama a la corrutina para destruir el enemigo después de la animación
+                StartCoroutine(DestruirEnemigo());
+            }
         }
     }
 
@@ -113,11 +117,22 @@ public class Enemigo : MonoBehaviour
         Color c = spriteRenderer.color;
         c.a = 1f;
         spriteRenderer.color = c;
-
     }
 
-    public void DesactivarAtaque(){
+    public void DesactivarAtaque()
+    {
         animator.SetBool("contactExist", false);
     }
 
+    public void DesactivarAnimacion()
+    {
+        recibiendoDanio = false;
+        animator.SetBool("damage", false);
+    }
+
+    private IEnumerator DestruirEnemigo()
+    {
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+        Destroy(gameObject);
+    }
 }
