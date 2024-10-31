@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5921150140195111155}
   - component: {fileID: 547146169774539420}
   m_Layer: 0
-  m_Name: Mushroom
+  m_Name: Fungar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46,7 +46,7 @@ Animator:
   m_GameObject: {fileID: 4447007192826749845}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: df54f8ddf8aab9f40a0194cdc867d518, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5a3c82bdf32b84052a446b5704dcba7f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -98,7 +98,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -294729353, guid: e0c76a7781bdd924fb549680c726401c, type: 3}
+  m_Sprite: {fileID: 1097612271, guid: 1241c0d0e389b4d17ac6c6c6d1b528fc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -141,18 +141,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.034435272, y: -0.023536682}
+  m_Offset: {x: -0.002122797, y: -0.0009654686}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.125, y: 2}
+    oldSize: {x: 0.34, y: 0.16}
     newSize: {x: 1.875, y: 2.0625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.0413742, y: 2.128502}
+  m_Size: {x: 0.36231923, y: 0.18798448}
   m_EdgeRadius: 0
 --- !u!50 &5921150140195111155
 Rigidbody2D:
@@ -166,7 +166,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2
+  m_Mass: 100
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownAtaque: 3
-  fuerzaRebote: 6
+  fuerzaRebote: 0
   hitsDie: 0
   objetivo: {fileID: 0}
-  speed: 5
+  speed: 3
