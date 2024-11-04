@@ -6,6 +6,7 @@ using UnityEngine;
 public class HUD : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameManager gameManager;
     public TextMeshProUGUI puntos;
     public GameObject[] vidas;
 

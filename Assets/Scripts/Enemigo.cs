@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
+    public int puntos;
+    public GameManager gameManager;
     public float cooldownAtaque;
     public float fuerzaRebote;
     public float hitsDie;
@@ -96,6 +98,7 @@ public class Enemigo : MonoBehaviour
                 animator.SetBool("die", true);
 
                 // Llama a la corrutina para destruir el enemigo después de la animación
+                gameManager.SumarPuntos(puntos);
                 StartCoroutine(DestruirEnemigo());
             }
         }

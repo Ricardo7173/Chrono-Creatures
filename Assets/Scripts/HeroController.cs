@@ -23,19 +23,20 @@ public class HeroController : MonoBehaviour
         saltosRestantes = satosMaximos;
         animator = GetComponent<Animator>();
     }
-    
+
     // Update is called once per frame
     void Update()
     {
         ProcesarMovimiento();
         ProcesarSalto();
         ProcesarAtaque();
+        VerificarLimites();
     }
 
     bool EstaEnSuelo()
     {
-       RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, boxCollider.bounds.size.y), 0f, Vector2.down, 0.2f, capaSuelo); 
-       return raycastHit.collider != null;
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, boxCollider.bounds.size.y), 0f, Vector2.down, 0.2f, capaSuelo);
+        return raycastHit.collider != null;
     }
 
     void ProcesarSalto()
@@ -52,8 +53,9 @@ public class HeroController : MonoBehaviour
             rigidBody.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
         }
     }
-    
-    void ProcesarMovimiento(){
+
+    void ProcesarMovimiento()
+    {
         if (!puedeMoverse)
         {
             return;
@@ -61,7 +63,7 @@ public class HeroController : MonoBehaviour
 
         float inputMovimiento = Input.GetAxis("Horizontal");
 
-        if(inputMovimiento != 0f)
+        if (inputMovimiento != 0f)
         {
             animator.SetBool("isWalking", true);
         }
@@ -74,53 +76,73 @@ public class HeroController : MonoBehaviour
         GestionarOrientacion(inputMovimiento);
     }
 
-    void GestionarOrientacion(float inputMovimiento){
-        if((mirandoDerecha == true && inputMovimiento < 0) || (mirandoDerecha == false && inputMovimiento > 0)){
+    void GestionarOrientacion(float inputMovimiento)
+    {
+        if ((mirandoDerecha == true && inputMovimiento < 0) || (mirandoDerecha == false && inputMovimiento > 0))
+        {
             mirandoDerecha = !mirandoDerecha;
             transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
         }
     }
 
-    public void AplicarGolpe(){
-        puedeMoverse = false;
+    public void AplicarGolpe()
+    {
+        //puedeMoverse = false;
 
         Vector2 direccionGolpe;
 
         if (rigidBody.velocity.x > 0)
         {
             direccionGolpe = new Vector2(-1, 1);
-        } else
+        }
+        else
         {
             direccionGolpe = new Vector2(1, 1);
         }
 
         rigidBody.AddForce(direccionGolpe * fuerzaGolpe);
 
-        StartCoroutine(EsperarYActivarMovimiento());
+        //StartCoroutine(EsperarYActivarMovimiento());
     }
 
-    void ProcesarAtaque(){
-        if(Input.GetKeyDown(KeyCode.Z) && EstaEnSuelo()){
+    void ProcesarAtaque()
+    {
+        if (Input.GetKeyDown(KeyCode.Z) && EstaEnSuelo())
+        {
             Atacando();
         }
     }
 
-    public void Atacando(){
+    public void Atacando()
+    {
         animator.SetBool("isAttacking", true);
     }
 
-    public void DesactivarAtaque(){
+    public void DesactivarAtaque()
+    {
         animator.SetBool("isAttacking", false);
     }
 
-    IEnumerator EsperarYActivarMovimiento(){
-        yield return new WaitForSeconds(0.1f);
+    // IEnumerator EsperarYActivarMovimiento()
+    // {
+    //     yield return new WaitForSeconds(0.1f);
 
-        while (!EstaEnSuelo())
+    //     while (!EstaEnSuelo())
+    //     {
+    //         yield return null;
+    //     }
+
+    //     puedeMoverse = true;
+    // }
+
+    void VerificarLimites()
+    {
+        float limiteInferior = -10f;  
+        
+        if (transform.position.y < limiteInferior)
         {
-            yield return null;
+            GameManager.Instance.PerderVida();
         }
-
-        puedeMoverse = true;
     }
+
 }
