@@ -5,16 +5,26 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance { get; private set;}
+    public static GameManager Instance { get; private set; }
     public HUD hud;
-    public int PuntosTotales { get; private set; }
+    public int PuntosTotales { get { return puntosTotales; } }
+    private int puntosTotales;
     private int vidas = 3;
     // Start is called before the first frame update
+
+    void Update()
+    {
+        if (puntosTotales >= 100)
+        {
+            RecuperarVida();
+        }
+    }
+
     private void Awake()
     {
         if (Instance == null)
         {
-            Instance = this;   
+            Instance = this;
         }
         else
         {
@@ -24,11 +34,12 @@ public class GameManager : MonoBehaviour
 
     public void SumarPuntos(int puntosASumar)
     {
-        PuntosTotales += puntosASumar;
+        puntosTotales += puntosASumar;
         hud.ActualizarPuntos(PuntosTotales);
-    } 
+    }
 
-    public void PerderVida(){
+    public void PerderVida()
+    {
         vidas -= 1;
 
         if (vidas == 0)
@@ -37,5 +48,17 @@ public class GameManager : MonoBehaviour
         }
 
         hud.DesactivarVida(vidas);
+    }
+
+    public void RecuperarVida()
+    {
+        if (vidas >= 3)
+        {
+            return;
+        }
+        hud.ActivarVida(vidas);
+        vidas += 1;
+        puntosTotales -= 100;
+        hud.ActualizarPuntos(PuntosTotales);
     }
 }
