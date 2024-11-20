@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
 
-public class Enemigo : MonoBehaviour
+public class Enemigo_Fungar : MonoBehaviour
 {
-    public int puntos;
+   public int puntos;
     public GameManager gameManager;
     public float cooldownAtaque;
     public float fuerzaRebote;
@@ -23,29 +22,22 @@ public class Enemigo : MonoBehaviour
     private float distanciaAbsoluta;
     private Animator animator;
     private Rigidbody2D rigidBody;
+    private Vector3 escalaOriginal; 
+
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
+        escalaOriginal = transform.localScale; 
+
     }
 
     void Update()
     {
-
-         if (objetivo == null || !objetivo.CompareTag("Player"))
-    {
-        // Busca al jugador activo si el objetivo no es válido
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
-        {
-            objetivo = player.transform;
-        }
-    }
-    
         distancia = objetivo.position.x - transform.position.x;
-        distanciaAbsoluta = math.abs(distancia);
+        distanciaAbsoluta = Mathf.Abs(distancia);
 
         if (debePerseguir && !recibiendoDanio)
         {
@@ -54,11 +46,12 @@ public class Enemigo : MonoBehaviour
 
         if (distancia > 0)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+             transform.localScale = new Vector3(-Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z);
         }
         else
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z);
+
         }
 
         if (distanciaAbsoluta < 15)
@@ -150,3 +143,11 @@ public class Enemigo : MonoBehaviour
         Destroy(gameObject);
     }
 }
+
+
+
+
+
+
+
+

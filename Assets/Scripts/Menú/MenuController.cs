@@ -8,7 +8,7 @@ public class MenuController : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Nivel 1"); 
+        SceneManager.LoadScene("SelectorPersonajes"); 
     }
 }
 

@@ -766,6 +766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6652c6f665168848a70d1e5ef0ccf5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
   puntos: {fileID: 0}
   vidas:
   - {fileID: 1774573784}
@@ -39089,6 +39090,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f30a1de68763d64bb3318abd9bfe89e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  puntos: 0
+  gameManager: {fileID: 0}
   cooldownAtaque: 2
   fuerzaRebote: 3
   hitsDie: 5
@@ -40357,11 +40360,39 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 547146169774539420, guid: edc5a6b1fdef848b281a5b820040d039, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4447007192826749845, guid: edc5a6b1fdef848b281a5b820040d039, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6366495950093581352}
   m_SourcePrefab: {fileID: 100100000, guid: edc5a6b1fdef848b281a5b820040d039, type: 3}
+--- !u!1 &6366495950093581351 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4447007192826749845, guid: edc5a6b1fdef848b281a5b820040d039, type: 3}
+  m_PrefabInstance: {fileID: 6366495950093581350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6366495950093581352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6366495950093581351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69b3f75cc1e4a4f68826c38ed5a6d440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntos: 10
+  gameManager: {fileID: 303206450}
+  cooldownAtaque: 2
+  fuerzaRebote: 5
+  hitsDie: 4
+  objetivo: {fileID: 1279742359}
+  speed: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
