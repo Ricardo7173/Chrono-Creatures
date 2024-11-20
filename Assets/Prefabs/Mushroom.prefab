@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1897220663513968527}
   - component: {fileID: 2903701466457921186}
   - component: {fileID: 5921150140195111155}
-  - component: {fileID: 547146169774539420}
+  - component: {fileID: 164642627145040681}
   m_Layer: 0
   m_Name: Mushroom
   m_TagString: Untagged
@@ -181,7 +181,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &547146169774539420
+--- !u!114 &164642627145040681
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,10 +193,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f30a1de68763d64bb3318abd9bfe89e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntos: 20
+  puntos: 0
   gameManager: {fileID: 0}
-  cooldownAtaque: 3
-  fuerzaRebote: 6
-  hitsDie: 3
+  cooldownAtaque: 1
+  fuerzaRebote: 1
+  hitsDie: 1
   objetivo: {fileID: 0}
-  speed: 5
+  speed: 1
