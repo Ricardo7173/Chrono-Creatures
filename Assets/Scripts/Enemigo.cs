@@ -149,4 +149,14 @@ public class Enemigo : MonoBehaviour
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         Destroy(gameObject);
     }
+
+    void VerificarLimites()
+    {
+        float limiteInferior = -10f;  
+        
+        if (transform.position.y < limiteInferior)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
