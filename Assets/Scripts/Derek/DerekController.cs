@@ -15,7 +15,6 @@ public class DerekController : MonoBehaviour
     private float saltosRestantes;
     private Animator animator;
     private bool puedeMoverse = true;
-    private bool puedeAtacar = true;
 
     private void Start()
     {
@@ -38,40 +37,7 @@ public class DerekController : MonoBehaviour
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, new Vector2(boxCollider.bounds.size.x, boxCollider.bounds.size.y), 0f, Vector2.down, 0.2f, capaSuelo);
         return raycastHit.collider != null;
     }
-
-    void ProcesarMovimiento()
-    {
-        if (!puedeMoverse)
-        {
-            return;
-        }
-
-        float inputMovimiento = Input.GetAxis("Horizontal");
-
-        if (inputMovimiento != 0f)
-        {
-            animator.SetBool("isWalking", true);
-            animator.ResetTrigger("isIdle");
-        }
-        else
-        {
-            animator.SetBool("isWalking", false);
-            animator.SetTrigger("isIdle");
-        }
-
-        rigidBody.velocity = new Vector2(inputMovimiento * velocidad, rigidBody.velocity.y);
-        GestionarOrientacion(inputMovimiento);
-    }
-
-    void GestionarOrientacion(float inputMovimiento)
-    {
-        if ((mirandoDerecha == true && inputMovimiento < 0) || (mirandoDerecha == false && inputMovimiento > 0))
-        {
-            mirandoDerecha = !mirandoDerecha;
-            transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
-        }
-    }
-
+    
     void ProcesarSalto()
     {
         if (EstaEnSuelo())
@@ -92,9 +58,61 @@ public class DerekController : MonoBehaviour
         }
     }
 
+   void ProcesarMovimiento()
+    {
+        if (!puedeMoverse)
+        {
+            return;
+        }
+
+        float inputMovimiento = Input.GetAxis("Horizontal");
+
+        if (inputMovimiento != 0f)
+        {
+            animator.SetBool("isWalking", true);
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+        }
+
+        rigidBody.velocity = new Vector2(inputMovimiento * velocidad, rigidBody.velocity.y);
+        GestionarOrientacion(inputMovimiento);
+    }
+
+
+    void GestionarOrientacion(float inputMovimiento)
+    {
+        if ((mirandoDerecha == true && inputMovimiento < 0) || (mirandoDerecha == false && inputMovimiento > 0))
+        {
+            mirandoDerecha = !mirandoDerecha;
+            transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+        }
+    }
+
+    public void AplicarGolpe()
+    {
+        //puedeMoverse = false;
+
+        Vector2 direccionGolpe;
+
+        if (rigidBody.velocity.x > 0)
+        {
+            direccionGolpe = new Vector2(-1, 1);
+        }
+        else
+        {
+            direccionGolpe = new Vector2(1, 1);
+        }
+
+        rigidBody.AddForce(direccionGolpe * fuerzaGolpe);
+
+        //StartCoroutine(EsperarYActivarMovimiento());
+    }
+
     void ProcesarAtaque()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && EstaEnSuelo() && puedeAtacar)
+        if (Input.GetKeyDown(KeyCode.Z) && EstaEnSuelo())
         {
             Atacando();
         }
@@ -102,25 +120,21 @@ public class DerekController : MonoBehaviour
 
     public void Atacando()
     {
-        StartCoroutine(RealizarAtaque());
+        animator.SetBool("isAttacking", true);
     }
 
-    private IEnumerator RealizarAtaque()
+    public void DesactivarAtaque()
     {
-        puedeAtacar = false;
-        animator.SetTrigger("isAttacking");
-        yield return new WaitForSeconds(0.5f);
-        puedeAtacar = true;
+        animator.SetBool("isAttacking", false);
     }
 
     void VerificarLimites()
     {
-        float limiteInferior = -10f;
-
+        float limiteInferior = -10f;  
+        
         if (transform.position.y < limiteInferior)
         {
-            Debug.Log("Derek ha caído");
-            // Agregar lógica si quieres que pierda una vida o se reinicie
+            GameManager.Instance.PerderVida();
         }
     }
 }
