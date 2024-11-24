@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7b4c4555fa49a493090dfa9a7e457004
+guid: e8d20f6c7de76544d94769ce177771d1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -162,33 +162,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Skeleton_01_White_Walk_0
+      name: Skeleton_01_White_Idle_0
       rect:
         serializedVersion: 2
-        x: 36
+        x: 34
         y: 0
-        width: 31
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fa51247b32e645dbb67728ea857ab57
-      internalID: -281522107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton_01_White_Walk_1
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 0
-        width: 32
+        width: 34
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -197,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 031af310c79634366b3ee90a98321718
-      internalID: 1822598059
+      spriteID: e550d3fe641264556932d462a56f465f
+      internalID: -331104700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_01_White_Walk_2
+      name: Skeleton_01_White_Idle_1
       rect:
         serializedVersion: 2
-        x: 227
+        x: 130
         y: 0
-        width: 33
-        height: 47
+        width: 34
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +197,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 861e0e954cccf479aad3ca67efc66bb0
-      internalID: 1606008000
+      spriteID: 226334313599c4ff394482c64bf17d73
+      internalID: 1845657786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_01_White_Walk_3
+      name: Skeleton_01_White_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11f4917961a44bc286eb0cc650b3be7
+      internalID: 2131078415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skeleton_01_White_Idle_3
       rect:
         serializedVersion: 2
         x: 322
         y: 0
-        width: 35
-        height: 48
+        width: 34
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +239,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f0320661d2c3457b9fbadb82a6ba2a3
-      internalID: 1794996467
+      spriteID: 1b356dc8283ac416a80d68546915f962
+      internalID: 1806518963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_01_White_Walk_4
+      name: Skeleton_01_White_Idle_4
       rect:
         serializedVersion: 2
-        x: 417
+        x: 418
         y: 0
-        width: 36
-        height: 46
+        width: 34
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,19 +260,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 722ada852609140b5bde7076c7050870
-      internalID: 1771258572
+      spriteID: 20b13a210f4bb4681a02acde43fd7c0f
+      internalID: -299044653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_01_White_Walk_5
+      name: Skeleton_01_White_Idle_5
       rect:
         serializedVersion: 2
-        x: 511
+        x: 514
         y: 0
-        width: 39
+        width: 34
         height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -281,19 +281,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4e1eb4311ee8417889cfe98f72ecdac
-      internalID: -1233218257
+      spriteID: 1167ae195df00407d938d58bee381808
+      internalID: 1265571999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_01_White_Walk_6
+      name: Skeleton_01_White_Idle_6
       rect:
         serializedVersion: 2
-        x: 609
+        x: 610
         y: 0
-        width: 36
+        width: 34
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -302,61 +302,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd4604a60e2024965b89d52a93c4af2b
-      internalID: 1239391945
+      spriteID: bce39f574ed6e44529ad7e38d36d71ff
+      internalID: -1582953052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Skeleton_01_White_Walk_7
+      name: Skeleton_01_White_Idle_7
       rect:
         serializedVersion: 2
         x: 706
         y: 0
-        width: 35
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24c42685c9289441a8baa94b2470b190
-      internalID: -1895742474
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton_01_White_Walk_8
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 0
-        width: 33
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52da520b58ad048b29d1cc8f09f57df9
-      internalID: 31630046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Skeleton_01_White_Walk_9
-      rect:
-        serializedVersion: 2
-        x: 899
-        y: 0
-        width: 32
+        width: 34
         height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -365,8 +323,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3beaa8fc7a4d4ac1a5d89feff001eda
-      internalID: 2119567813
+      spriteID: f882569fc07de44bdacd4a5bf0d5e85d
+      internalID: -848697895
       vertices: []
       indices: 
       edges: []
@@ -382,16 +340,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Skeleton_01_White_Walk_0: -281522107
-      Skeleton_01_White_Walk_1: 1822598059
-      Skeleton_01_White_Walk_2: 1606008000
-      Skeleton_01_White_Walk_3: 1794996467
-      Skeleton_01_White_Walk_4: 1771258572
-      Skeleton_01_White_Walk_5: -1233218257
-      Skeleton_01_White_Walk_6: 1239391945
-      Skeleton_01_White_Walk_7: -1895742474
-      Skeleton_01_White_Walk_8: 31630046
-      Skeleton_01_White_Walk_9: 2119567813
+      Skeleton_01_White_Idle_0: -331104700
+      Skeleton_01_White_Idle_1: 1845657786
+      Skeleton_01_White_Idle_2: 2131078415
+      Skeleton_01_White_Idle_3: 1806518963
+      Skeleton_01_White_Idle_4: -299044653
+      Skeleton_01_White_Idle_5: 1265571999
+      Skeleton_01_White_Idle_6: -1582953052
+      Skeleton_01_White_Idle_7: -848697895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
