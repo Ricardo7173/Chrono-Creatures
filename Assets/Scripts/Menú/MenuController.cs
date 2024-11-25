@@ -10,6 +10,16 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("SelectorPersonajes"); 
     }
+
+    public void RegresarMenu()
+    {
+        SceneManager.LoadScene("Menú"); 
+    }
+    public void ReiniciarNivel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    
 }
 
 
