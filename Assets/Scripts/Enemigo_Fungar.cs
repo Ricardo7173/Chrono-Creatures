@@ -35,7 +35,18 @@ public class Enemigo_Fungar : MonoBehaviour
     }
 
     void Update()
+    
     {
+              if (objetivo == null || !objetivo.CompareTag("Player"))
+    {
+        // Busca al jugador activo si el objetivo no es válido
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            objetivo = player.transform;
+        }
+    }
+    
         distancia = objetivo.position.x - transform.position.x;
         distanciaAbsoluta = Mathf.Abs(distancia);
 
