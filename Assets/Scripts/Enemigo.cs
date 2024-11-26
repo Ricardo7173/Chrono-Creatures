@@ -23,12 +23,15 @@ public class Enemigo : MonoBehaviour
     private float distanciaAbsoluta;
     private Animator animator;
     private Rigidbody2D rigidBody;
+    private Vector3 escalaOriginal; 
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         rigidBody = GetComponent<Rigidbody2D>();
+        escalaOriginal = transform.localScale; 
+
     }
 
     void Update()
@@ -52,13 +55,14 @@ public class Enemigo : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, objetivo.position, speed * Time.deltaTime);
         }
 
-        if (distancia > 0)
+       if (distancia > 0)
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+             transform.localScale = new Vector3(-Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z);
         }
         else
         {
-            transform.localScale = new Vector3(1, 1, 1);
+            transform.localScale = new Vector3(Mathf.Abs(escalaOriginal.x), escalaOriginal.y, escalaOriginal.z);
+
         }
 
         if (distanciaAbsoluta < 15)
