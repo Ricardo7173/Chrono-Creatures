@@ -27455,12 +27455,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f30a1de68763d64bb3318abd9bfe89e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntos: 0
-  gameManager: {fileID: 0}
+  puntos: 50
+  gameManager: {fileID: 1059302328}
   cooldownAtaque: 2
   fuerzaRebote: 3
   hitsDie: 5
-  objetivo: {fileID: 0}
+  objetivo: {fileID: 1205111064}
   speed: 7
 --- !u!50 &1016815950
 Rigidbody2D:
