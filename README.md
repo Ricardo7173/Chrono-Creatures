@@ -1,7 +1,7 @@
 # Creación de VideoJuegos
 
 <p align="center">
-    <img src="https://t4.ftcdn.net/jpg/06/52/63/63/360_F_652636322_bKvcBx9r6RCtDaiTcTRRB4tiJzDXK7u7.jpg" alt="Logo" width=540 height=300>
+    <img src="https://img.freepik.com/vector-gratis/fondo-controlador-videojuego-futurista-espacio-texto_1017-54730.jpg" alt="Logo" width=540 height=300>
 
   <p align="center">
     Repositorio donde se almacenan las evidencias del videojuego Chrono Creatures, cuyos autores del mismo son Miguel Ángel Hernández Solís y Omar Ricardo Garay García para la materia de Creación de Videojuegos del Grupo GIDS4101-E
