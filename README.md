@@ -10,9 +10,7 @@
 
 ## Contenido
 
-- [Introducción](#introducción)
-- [Código Fuente](#código-fuente)
-- [Planificación](#planificación)
+- [Historia y Peronajes](#introducción)
 - [Autores](#autores)
 - [Copyright](#copyright)
 
