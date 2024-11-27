@@ -71,8 +71,8 @@ Cada combate en Chrono Creatures es una representación de esta lucha entre la r
 
 ## Autores
 
-Miguel Ángel Hernández Solís
-Omar Ricardo Garay García
+* Miguel Ángel Hernández Solís
+* Omar Ricardo Garay García
 
 ## Copyright
 
