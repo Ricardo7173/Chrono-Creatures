@@ -65,7 +65,7 @@ Cada combate en Chrono Creatures es una representación de esta lucha entre la r
 
 ## Jira
 
-* > [Jira](https://youtu.be/H2X9XDbaF-U)
+* > [Jira](https://deswebintegral1.atlassian.net/jira/software/projects/CC/boards/5)
 
 ## Autores
 
