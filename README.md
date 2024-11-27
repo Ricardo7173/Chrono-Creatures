@@ -63,9 +63,9 @@ Cada combate en Chrono Creatures es una representación de esta lucha entre la r
 - Todos los niveles finalizan cuando se derrota al boss final del mismo.
 - El juego termina cuando se mata al jefe final del nivel 3.
 
-## Trello
+## Jira
 
-![Plan](./lecciones/tablero_trello.png)
+* > [Jira](https://youtu.be/H2X9XDbaF-U)
 
 ## Autores
 
