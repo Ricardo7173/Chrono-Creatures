@@ -91,10 +91,33 @@ public class Enemigo_Fungar : MonoBehaviour
             color.a = 0.5f;
             spriteRenderer.color = color;
 
+ // Validar el GameManager
+        if (GameManager.Instance != null)
+        {
             GameManager.Instance.PerderVida();
-            collision.gameObject.GetComponent<HeroController>().AplicarGolpe();
+        }
 
-            Invoke("ReactivarAtaque", cooldownAtaque);
+        // Detectar si es un HeroController o DerekController
+        HeroController hero = collision.gameObject.GetComponent<HeroController>();
+        DerekController derek = collision.gameObject.GetComponent<DerekController>();
+
+        if (hero != null)
+        {
+            hero.AplicarGolpe();
+            Debug.Log("Golpe aplicado a HeroController.");
+        }
+        else if (derek != null)
+        {
+            derek.AplicarGolpe();
+            Debug.Log("Golpe aplicado a DerekController.");
+        }
+        else
+        {
+            Debug.LogWarning("El objeto Player no tiene ni HeroController ni DerekController.");
+        }
+
+        Invoke("ReactivarAtaque", cooldownAtaque);
+        
         }
     }
 

@@ -24,6 +24,8 @@ public class Enemigo : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rigidBody;
     private Vector3 escalaOriginal; 
+    public GameObject canvasPauseMenu;
+
 
     void Start()
     {
@@ -91,10 +93,32 @@ public class Enemigo : MonoBehaviour
             color.a = 0.5f;
             spriteRenderer.color = color;
 
+ // Validar el GameManager
+        if (GameManager.Instance != null)
+        {
             GameManager.Instance.PerderVida();
-            collision.gameObject.GetComponent<HeroController>().AplicarGolpe();
+        }
 
-            Invoke("ReactivarAtaque", cooldownAtaque);
+        // Detectar si es un HeroController o DerekController
+        HeroController hero = collision.gameObject.GetComponent<HeroController>();
+        DerekController derek = collision.gameObject.GetComponent<DerekController>();
+
+        if (hero != null)
+        {
+            hero.AplicarGolpe();
+            Debug.Log("Golpe aplicado a HeroController.");
+        }
+        else if (derek != null)
+        {
+            derek.AplicarGolpe();
+            Debug.Log("Golpe aplicado a DerekController.");
+        }
+        else
+        {
+            Debug.LogWarning("El objeto Player no tiene ni HeroController ni DerekController.");
+        }
+
+        Invoke("ReactivarAtaque", cooldownAtaque);
         }
     }
 
@@ -148,11 +172,28 @@ public class Enemigo : MonoBehaviour
         animator.SetBool("damage", false);
     }
 
-    private IEnumerator DestruirEnemigo()
+  private IEnumerator DestruirEnemigo()
+{
+    yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
+    
+    // Verificar si este enemigo es el Golem
+    if (gameObject.CompareTag("Golem"))
     {
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
-        Destroy(gameObject);
+        if (canvasPauseMenu != null)
+        {
+            canvasPauseMenu.SetActive(true);
+            Time.timeScale = 0f; // Pausar el juego
+            Debug.Log("Canvas de pausa activado por Golem.");
+        }
+        else
+        {
+            Debug.LogError("CanvasPauseMenu no asignado en el Inspector.");
+        }
     }
+
+    Destroy(gameObject);
+}
+
 
     void VerificarLimites()
     {
